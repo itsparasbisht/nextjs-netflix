@@ -1,3 +1,18 @@
-export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+import Head from "next/head";
+import Header from "../components/Header";
+
+function Home() {
+  return (
+    <div className="">
+      <Head>
+        <title>Home - Netflix</title>
+      </Head>
+      <Header />
+      <main>
+        <section></section>
+      </main>
+    </div>
+  );
 }
+
+export default Home;
